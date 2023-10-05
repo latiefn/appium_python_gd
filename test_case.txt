@@ -1,6 +1,8 @@
 Record Test
 https://drive.google.com/file/d/19se_Gfg3RoX7vUldOFzEuFqB4otvze7u/view?usp=sharing
 
+Prerequest : Must open emulator and login to good doctor app
+
 Test Case 1
     Given the user is on the homepage
     When user click on profile icon

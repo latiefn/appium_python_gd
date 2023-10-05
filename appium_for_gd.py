@@ -13,8 +13,8 @@ class AndroAppTest (unittest.TestCase):
     def setUp(self):
         desired_capabilities = {
             'platformName': 'android',
-            'deviceName': 'emulator-5554',
-            'platformVersion': '14',
+            'deviceName': 'emulator-5554', #adjust it to the emulator name
+            'platformVersion': '14', #adjust it to the emulator version
             'automationName': 'uiautomator2',
             'appPackage': 'com.pajk.idpersonaldoc',
             'appActivity': 'com.pajk.idpersonaldoc.activities.HomePageActivity',
