@@ -1,0 +1,42 @@
+Record Test
+https://drive.google.com/file/d/19se_Gfg3RoX7vUldOFzEuFqB4otvze7u/view?usp=sharing
+
+Test Case 1
+    Given the user is on the homepage
+    When user click on profile icon
+    And user click on Detail Profile (icon >)
+    And user click on the Name
+    And user changes the user name
+    And user click Simpan
+    Then user name is updated
+    And user click back to homepage
+
+Test Case 2
+     Given the user is on the homepage
+    When user click on profile icon
+    And user click on Detail Profile (icon >)
+    And user click on the Email
+    And user changes the user email
+    And user click Simpan
+    Then user email is updated
+    And user click back to homepage
+
+Test Case 3
+    Given the user is on the homepage
+    When user click on profile icon
+    And user click on Detail Profile (icon >)
+    And user click on the 'Tinggi Badan'
+    And user changes the 'Tinggi Badan'
+    And user click 'Simpan'
+    Then user 'Tinggi Badan' is updated
+    And user click back to homepage
+
+Test Case 4
+    Given the user is on the homepage
+    When user click on profile icon
+    And user click on Detail Profile (icon >)
+    And user click on the 'Berat Badan'
+    And user changes the 'Berat Badan'
+    And user click 'Simpan'
+    Then user 'Berat Badan' is updated
+    And user click back to homepage
