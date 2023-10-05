@@ -1,9 +1,9 @@
 Record Test
 https://drive.google.com/file/d/19se_Gfg3RoX7vUldOFzEuFqB4otvze7u/view?usp=sharing
 
-Prerequest : Must open emulator and login to good doctor app
+Prerequisite : Must open emulator and login to good doctor app
 
-Test Case 1
+Test Case 1 (Change Name)
     Given the user is on the homepage
     When user click on profile icon
     And user click on Detail Profile (icon >)
@@ -13,7 +13,7 @@ Test Case 1
     Then user name is updated
     And user click back to homepage
 
-Test Case 2
+Test Case 2 (Change Email)
      Given the user is on the homepage
     When user click on profile icon
     And user click on Detail Profile (icon >)
@@ -23,7 +23,7 @@ Test Case 2
     Then user email is updated
     And user click back to homepage
 
-Test Case 3
+Test Case 3 (Change Height)
     Given the user is on the homepage
     When user click on profile icon
     And user click on Detail Profile (icon >)
@@ -33,7 +33,7 @@ Test Case 3
     Then user 'Tinggi Badan' is updated
     And user click back to homepage
 
-Test Case 4
+Test Case 4 (Change Weigh)
     Given the user is on the homepage
     When user click on profile icon
     And user click on Detail Profile (icon >)
